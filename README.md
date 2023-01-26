@@ -5,9 +5,9 @@ Bienvenue pour ce troisième workshop :)
 
 Nous verrons comment : 
 
-✔️ Créer un smart contract sur Algorand 
-
 ✔️ Coder dans le langage de programmation PyTeal 
+
+✔️ Créer un smart contract sur Algorand 
 
 ✔️ Exécuter notre premier smart contract 
 
