@@ -1,5 +1,5 @@
-# Workshop3-Algorand
-Bienvenue pour ce troisième workshop :)
+# Workshop3&4-Algorand
+Bienvenue pour ce troisième et quatrième workshop  :)
 
 🧵 Aujourd'hui nous allons nous concentrer sur un sujet en particulier : les smart contracts, particulièrement sur Algorand. 
 
