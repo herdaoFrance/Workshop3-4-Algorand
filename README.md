@@ -26,9 +26,10 @@ Vous pourrez trouvez le code dans le réportoire, que vous pouvez copier/coller 
 
 <details>
   <summary>
-  <h1> Commande pour déployer notre marketplace </h1>
+  <h1>Commande pour déployer notre marketplace </h1>
   </summary>
 Les variables ci-dessous, seront simplement les chemins à copier/coller depuis le fichier désirer. Si le fichier marketplace_approbation.teal, placez vous sur ce fichier, puis avec un clic droit, il sera possible de récupérer le chemin du contrat. 
+
 
   ${CHEMIN_VERS_MARKETPLACE_APPROBATION}: Chemin vers la marketplace_approbation.teal
   
