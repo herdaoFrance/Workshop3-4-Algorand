@@ -15,7 +15,7 @@ Nous verrons comment :
 
 <details>
   <summary>
-  <h1>🤝 Ecriture de notre smart contract </h1>
+  <h1>🤝 Ecriture du notre smart contract </h1>
   </summary>
   
 
