@@ -56,7 +56,7 @@ Dans votre terminal (sandbox), écrivez ces lignes de code :
   .\sandbox copyTo "chemin_vers_marketplace_clear" 
   ~~~
   
-  
+ 6. La création de la marketplace :
   ~~~
   ./sandbox goal app create --creator ${CHEMIN_VERS_MARKETPLACE_APPROBATION} --approval-prog marketplace_approbation.teal --clear-prog marketplace_efface.teal --note tutprial-marketplace:uv1 --global-byteslices 3 --global-ints 2 --local-byteslices 0 --locall-ints 0 --app-arg str:TestName --app-arg str:TestImage --app-arg str:TestDescription --app-arg int:1000000
   ~~~
