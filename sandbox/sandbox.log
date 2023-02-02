@@ -1,0 +1,138 @@
+* docker compose up -d
+error during connect: this error may indicate that the docker daemon is not running: Get "http://%2F%2F.%2Fpipe%2Fdocker_engine/v1.24/containers/json?all=1&filters=%7B%22label%22%3A%7B%22com.docker.compose.project%3Dsandbox%22%3Atrue%7D%7D": open //./pipe/docker_engine: The system cannot find the file specified.
+* docker compose down
+error during connect: this error may indicate that the docker daemon is not running: Get "http://%2F%2F.%2Fpipe%2Fdocker_engine/v1.24/containers/json?all=1&filters=%7B%22label%22%3A%7B%22com.docker.compose.oneoff%3DFalse%22%3Atrue%2C%22com.docker.compose.project%3Dsandbox%22%3Atrue%7D%7D": open //./pipe/docker_engine: The system cannot find the file specified.
+* docker rmi sandbox_algod sandbox_indexer
+error during connect: This error may indicate that the docker daemon is not running.: Delete "http://%2F%2F.%2Fpipe%2Fdocker_engine/v1.24/images/sandbox_algod": open //./pipe/docker_engine: The system cannot find the file specified.
+error during connect: This error may indicate that the docker daemon is not running.: Delete "http://%2F%2F.%2Fpipe%2Fdocker_engine/v1.24/images/sandbox_indexer": open //./pipe/docker_engine: The system cannot find the file specified.
+* docker compose rm -f
+error during connect: this error may indicate that the docker daemon is not running: Get "http://%2F%2F.%2Fpipe%2Fdocker_engine/v1.24/containers/json?all=1&filters=%7B%22label%22%3A%7B%22com.docker.compose.oneoff%3DFalse%22%3Atrue%2C%22com.docker.compose.project%3Dsandbox%22%3Atrue%7D%7D": open //./pipe/docker_engine: The system cannot find the file specified.
+error during connect: This error may indicate that the docker daemon is not running.: Get "http://%2F%2F.%2Fpipe%2Fdocker_engine/v1.24/images/json?filters=%7B%22dangling%22%3A%7B%22true%22%3Atrue%7D%7D": open //./pipe/docker_engine: The system cannot find the file specified.
+* docker rmi 
+error during connect: This error may indicate that the docker daemon is not running.: Get "http://%2F%2F.%2Fpipe%2Fdocker_engine/v1.24/images/json?filters=%7B%22dangling%22%3A%7B%22true%22%3Atrue%7D%7D": open //./pipe/docker_engine: The system cannot find the file specified.
+"docker rmi" requires at least 1 argument.
+See 'docker rmi --help'.
+
+Usage:  docker rmi [OPTIONS] IMAGE [IMAGE...]
+
+Remove one or more images
+.clean file found in sandbox directory. Rebuilding images...
+* docker compose build --no-cache
+no valid drivers found: error during connect: this error may indicate that the docker daemon is not running: Get "http://%2F%2F.%2Fpipe%2Fdocker_engine/v1.24/info": open //./pipe/docker_engine: The system cannot find the file specified.
+* docker compose up -d
+error during connect: this error may indicate that the docker daemon is not running: Get "http://%2F%2F.%2Fpipe%2Fdocker_engine/v1.24/containers/json?all=1&filters=%7B%22label%22%3A%7B%22com.docker.compose.project%3Dsandbox%22%3Atrue%7D%7D": open //./pipe/docker_engine: The system cannot find the file specified.
+* docker compose up -d
+error during connect: this error may indicate that the docker daemon is not running: Get "http://%2F%2F.%2Fpipe%2Fdocker_engine/v1.24/containers/json?all=1&filters=%7B%22label%22%3A%7B%22com.docker.compose.project%3Dsandbox%22%3Atrue%7D%7D": open //./pipe/docker_engine: The system cannot find the file specified.
+* docker compose up -d
+error during connect: this error may indicate that the docker daemon is not running: Get "http://%2F%2F.%2Fpipe%2Fdocker_engine/v1.24/containers/json?all=1&filters=%7B%22label%22%3A%7B%22com.docker.compose.project%3Dsandbox%22%3Atrue%7D%7D": open //./pipe/docker_engine: The system cannot find the file specified.
+* docker compose down
+error during connect: this error may indicate that the docker daemon is not running: Get "http://%2F%2F.%2Fpipe%2Fdocker_engine/v1.24/containers/json?all=1&filters=%7B%22label%22%3A%7B%22com.docker.compose.oneoff%3DFalse%22%3Atrue%2C%22com.docker.compose.project%3Dsandbox%22%3Atrue%7D%7D": open //./pipe/docker_engine: The system cannot find the file specified.
+* docker rmi sandbox_algod sandbox_indexer
+error during connect: This error may indicate that the docker daemon is not running.: Delete "http://%2F%2F.%2Fpipe%2Fdocker_engine/v1.24/images/sandbox_algod": open //./pipe/docker_engine: The system cannot find the file specified.
+error during connect: This error may indicate that the docker daemon is not running.: Delete "http://%2F%2F.%2Fpipe%2Fdocker_engine/v1.24/images/sandbox_indexer": open //./pipe/docker_engine: The system cannot find the file specified.
+* docker compose rm -f
+error during connect: this error may indicate that the docker daemon is not running: Get "http://%2F%2F.%2Fpipe%2Fdocker_engine/v1.24/containers/json?all=1&filters=%7B%22label%22%3A%7B%22com.docker.compose.oneoff%3DFalse%22%3Atrue%2C%22com.docker.compose.project%3Dsandbox%22%3Atrue%7D%7D": open //./pipe/docker_engine: The system cannot find the file specified.
+error during connect: This error may indicate that the docker daemon is not running.: Get "http://%2F%2F.%2Fpipe%2Fdocker_engine/v1.24/images/json?filters=%7B%22dangling%22%3A%7B%22true%22%3Atrue%7D%7D": open //./pipe/docker_engine: The system cannot find the file specified.
+* docker rmi 
+error during connect: This error may indicate that the docker daemon is not running.: Get "http://%2F%2F.%2Fpipe%2Fdocker_engine/v1.24/images/json?filters=%7B%22dangling%22%3A%7B%22true%22%3Atrue%7D%7D": open //./pipe/docker_engine: The system cannot find the file specified.
+"docker rmi" requires at least 1 argument.
+See 'docker rmi --help'.
+
+Usage:  docker rmi [OPTIONS] IMAGE [IMAGE...]
+
+Remove one or more images
+.clean file found in sandbox directory. Rebuilding images...
+* docker compose build --no-cache
+no valid drivers found: error during connect: this error may indicate that the docker daemon is not running: Get "http://%2F%2F.%2Fpipe%2Fdocker_engine/v1.24/info": open //./pipe/docker_engine: The system cannot find the file specified.
+* docker compose up -d
+error during connect: this error may indicate that the docker daemon is not running: Get "http://%2F%2F.%2Fpipe%2Fdocker_engine/v1.24/containers/json?all=1&filters=%7B%22label%22%3A%7B%22com.docker.compose.project%3Dsandbox%22%3Atrue%7D%7D": open //./pipe/docker_engine: The system cannot find the file specified.
+.clean file NOT FOUND. Sandbox images will NOT be rebuilt.
+* docker compose up -d
+error during connect: this error may indicate that the docker daemon is not running: Get "http://%2F%2F.%2Fpipe%2Fdocker_engine/v1.24/containers/json?all=1&filters=%7B%22label%22%3A%7B%22com.docker.compose.project%3Dsandbox%22%3Atrue%7D%7D": open //./pipe/docker_engine: The system cannot find the file specified.
+* docker compose up -d
+error during connect: this error may indicate that the docker daemon is not running: Get "http://%2F%2F.%2Fpipe%2Fdocker_engine/v1.24/containers/json?all=1&filters=%7B%22label%22%3A%7B%22com.docker.compose.project%3Dsandbox%22%3Atrue%7D%7D": open //./pipe/docker_engine: The system cannot find the file specified.
+* docker compose up -d
+error during connect: this error may indicate that the docker daemon is not running: Get "http://%2F%2F.%2Fpipe%2Fdocker_engine/v1.24/containers/json?all=1&filters=%7B%22label%22%3A%7B%22com.docker.compose.project%3Dsandbox%22%3Atrue%7D%7D": open //./pipe/docker_engine: The system cannot find the file specified.
+* docker compose down
+error during connect: this error may indicate that the docker daemon is not running: Get "http://%2F%2F.%2Fpipe%2Fdocker_engine/v1.24/containers/json?all=1&filters=%7B%22label%22%3A%7B%22com.docker.compose.oneoff%3DFalse%22%3Atrue%2C%22com.docker.compose.project%3Dsandbox%22%3Atrue%7D%7D": open //./pipe/docker_engine: The system cannot find the file specified.
+* docker rmi sandbox_algod sandbox_indexer
+error during connect: This error may indicate that the docker daemon is not running.: Delete "http://%2F%2F.%2Fpipe%2Fdocker_engine/v1.24/images/sandbox_algod": open //./pipe/docker_engine: The system cannot find the file specified.
+error during connect: This error may indicate that the docker daemon is not running.: Delete "http://%2F%2F.%2Fpipe%2Fdocker_engine/v1.24/images/sandbox_indexer": open //./pipe/docker_engine: The system cannot find the file specified.
+* docker compose rm -f
+error during connect: this error may indicate that the docker daemon is not running: Get "http://%2F%2F.%2Fpipe%2Fdocker_engine/v1.24/containers/json?all=1&filters=%7B%22label%22%3A%7B%22com.docker.compose.oneoff%3DFalse%22%3Atrue%2C%22com.docker.compose.project%3Dsandbox%22%3Atrue%7D%7D": open //./pipe/docker_engine: The system cannot find the file specified.
+error during connect: This error may indicate that the docker daemon is not running.: Get "http://%2F%2F.%2Fpipe%2Fdocker_engine/v1.24/images/json?filters=%7B%22dangling%22%3A%7B%22true%22%3Atrue%7D%7D": open //./pipe/docker_engine: The system cannot find the file specified.
+* docker rmi 
+error during connect: This error may indicate that the docker daemon is not running.: Get "http://%2F%2F.%2Fpipe%2Fdocker_engine/v1.24/images/json?filters=%7B%22dangling%22%3A%7B%22true%22%3Atrue%7D%7D": open //./pipe/docker_engine: The system cannot find the file specified.
+"docker rmi" requires at least 1 argument.
+See 'docker rmi --help'.
+
+Usage:  docker rmi [OPTIONS] IMAGE [IMAGE...]
+
+Remove one or more images
+.clean file found in sandbox directory. Rebuilding images...
+* docker compose build --no-cache
+no valid drivers found: error during connect: this error may indicate that the docker daemon is not running: Get "http://%2F%2F.%2Fpipe%2Fdocker_engine/v1.24/info": open //./pipe/docker_engine: The system cannot find the file specified.
+* docker compose up -d
+error during connect: this error may indicate that the docker daemon is not running: Get "http://%2F%2F.%2Fpipe%2Fdocker_engine/v1.24/containers/json?all=1&filters=%7B%22label%22%3A%7B%22com.docker.compose.project%3Dsandbox%22%3Atrue%7D%7D": open //./pipe/docker_engine: The system cannot find the file specified.
+* docker compose down
+yaml: line 67: did not find expected comment or line break
+* docker rmi sandbox_algod sandbox_indexer
+Error: No such image: sandbox_algod
+Error: No such image: sandbox_indexer
+* docker compose rm -f
+yaml: line 67: did not find expected comment or line break
+* docker rmi 
+"docker rmi" requires at least 1 argument.
+See 'docker rmi --help'.
+
+Usage:  docker rmi [OPTIONS] IMAGE [IMAGE...]
+
+Remove one or more images
+.clean file found in sandbox directory. Rebuilding images...
+* docker compose build --no-cache
+yaml: line 67: did not find expected comment or line break
+* docker compose up -d
+yaml: line 67: did not find expected comment or line break
+* docker compose up -d
+yaml: line 67: did not find expected comment or line break
+* docker compose up -d
+yaml: line 67: did not find expected comment or line break
+.clean file NOT FOUND. Sandbox images will NOT be rebuilt.
+* docker compose up -d
+yaml: line 67: did not find expected comment or line break
+* docker compose down
+yaml: line 67: did not find expected comment or line break
+* docker rmi sandbox_algod sandbox_indexer
+Error: No such image: sandbox_algod
+Error: No such image: sandbox_indexer
+* docker compose rm -f
+yaml: line 67: did not find expected comment or line break
+* docker rmi 
+"docker rmi" requires at least 1 argument.
+See 'docker rmi --help'.
+
+Usage:  docker rmi [OPTIONS] IMAGE [IMAGE...]
+
+Remove one or more images
+.clean file found in sandbox directory. Rebuilding images...
+* docker compose build --no-cache
+yaml: line 67: did not find expected comment or line break
+* docker compose up -d
+yaml: line 67: did not find expected comment or line break
+.clean file NOT FOUND. Sandbox images will NOT be rebuilt.
+* docker compose up -d
+yaml: line 67: did not find expected comment or line break
+* docker compose up -d
+yaml: line 67: did not find expected comment or line break
+* docker compose up -d
+Container algorand-sandbox-postgres  Created
+Container algorand-sandbox-algod  Recreate
+Container algorand-sandbox-algod  Recreated
+Container algorand-sandbox-indexer  Recreate
+Container algorand-sandbox-indexer  Recreated
+Container algorand-sandbox-postgres  Starting
+Container algorand-sandbox-algod  Starting
+Container algorand-sandbox-algod  Started
+Container algorand-sandbox-postgres  Started
+Container algorand-sandbox-indexer  Starting
+Container algorand-sandbox-indexer  Started
