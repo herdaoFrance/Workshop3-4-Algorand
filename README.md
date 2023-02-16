@@ -35,7 +35,7 @@ Les variables ci-dessous, seront simplement les chemins à copier/coller depuis 
   
   ${CHEMIN_VERS_MARKETPLACE_CLEAR} : Chemin vers marketplace_clear.teal 
 
-1. Création d'un nouveau dossier sur votre ordinateu : 
+1. Création d'un nouveau dossier sur votre ordinateur : 
 indication -> ls/mkdir/cd depuis votre terminal 
 
 2. Vous pouvez clôner l'intégralité du répertoire dans votre nouveau document 
