@@ -25,20 +25,32 @@ indication -> ls/mkdir/cd depuis votre terminal
 
 3. Dans ce même workspace VSCode, ouvrez le dossier sandbox précedement utilisé (dans les workshop précédent) . 
 
-4. Copiez le chemin du fichier "marketplace_approval" 
+4. Copiez le chemin du fichier "marketplace_approval" ainsi que le fichier "marketplace_clear"
 Dans votre terminal (sandbox), écrivez ces lignes de code : 
   ~~~
   .\sandbox copyTo "chemin_vers_marketplace_approval" 
-  ~~~
-  
-5. De même pour le fichier "marketplace_clear" 
-  ~~~
   .\sandbox copyTo "chemin_vers_marketplace_clear" 
   ~~~
   
+5. Création d'un compte Algorand et d'un wallet sur Algorand : 
+  Sur votre terminal, voici les commandes que vous pouvez saissir. Pensez à bien sauvegarder votre mot de passe. 
+  ~~~
+  ./sandbox goal enter 
+  goal wallet new NOM DE VOTRE WALLET
+  ~~~
+  Votre wallet sera bien créer. Ensuite, vous pouvez créer un compte algorand via cette commande (ou réutiliser le compte précédément généré) 
+  ~~~
+  goal account new 
+  ~~~
+  
+  Une fois cela créer, pensez à alimenter votre compte algorand de faucet, afin d'effectuer les transactions 
  6. La création de la marketplace :
   ~~~
-  ./sandbox goal app create --creator ${CHEMIN_VERS_MARKETPLACE_APPROBATION} --approval-prog marketplace_approbation.teal --clear-prog marketplace_efface.teal --note tutprial-marketplace:uv1 --global-byteslices 3 --global-ints 2 --local-byteslices 0 --locall-ints 0 --app-arg str:TestName --app-arg str:TestImage --app-arg str:TestDescription --app-arg int:1000000
+./sandbox goal enter 
+  ~~~
+  
+  ~~~
+$ ./sandbox goal app create --creator 'ICI L'ADRESS DE TON COMPTE" --approval-prog marketplace_approval.teal --clear-prog marketplace_clear.teal --note tutorial-marketplace:uv1 --global-byteslices 3 --global-ints 2 --local-byteslices 0 --local-ints 0 --app-arg str:TestName --app-arg str:TestImage --app-arg str:TestDescription --app-arg int:1000000
   ~~~
   
 
