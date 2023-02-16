@@ -1,39 +1,22 @@
 # Workshop3&4-Algorand
 Bienvenue pour ce cinquième workshop :)
 
-🧵 Aujourd'hui nous allons nous concentrer sur un sujet en particulier : le front end et le déploiement d'une dApp sur le web
+🧵 Aujourd'hui nous allons nous concentrer sur un sujet en particulier : les smarts contracts et le déploiement de notre marketplace. Le smart contract, sera enfaite le code qui nous permettra de déployer notre marketplace 
 
 Nous verrons comment : 
 
-✔️ Transformer un design en front-end 
+✔️ Déployer des smart contracts sur Algorand 
 
-✔️ Déployer sa dApp sur le front 
+✔️ Déployer notre marketplace sur Algorand 
 
-
-
-
-<details>
-  <summary>
-  <h1>🤝 Générer un design front - end  </h1>
-  </summary>
-Lors d'un hackathon, vous serez peut-être ammené à créer un front-end, qui sera l'interface de votre produit. Un outil permet de rapidement créer un front-end à partir d'un design : plasmic. 
- 
-Vous pourrez trouvez le code dans le réportoire, que vous pouvez copier/coller dans vos fichier algorand. 
 
 
 </details>
 
 <details>
   <summary>
-  <h1>  Interaction avec la blockchain : le wallet  </h1>
+  <h1>  Créeation de la dApp  </h1>
   </summary>
-Précédemment, nous avons créer sur la blockchain Algorand, un compte et nous avons effectué notre première transaction. Pour créer une vrai dApp ou décentralized  Application, nous souhaitons implémenter une 
-
-
-  ${CHEMIN_VERS_MARKETPLACE_APPROVAL}: Chemin vers la marketplace_approval.teal
-  
-  ${CHEMIN_VERS_MARKETPLACE_CLEAR} : Chemin vers marketplace_clear.teal 
-
 1. Création d'un nouveau dossier sur votre ordinateur : 
 indication -> ls/mkdir/cd depuis votre terminal 
 
@@ -42,7 +25,7 @@ indication -> ls/mkdir/cd depuis votre terminal
   git clone https://github.com/herdaoFrance/Workshop3-4-Algorand.git
   ~~~
 
-3. Dans ce même workspace sur VSCode, ouvrez le dossier sandbox précedement utilisé. 
+3. Dans ce même workspace VSCode, ouvrez le dossier sandbox précedement utilisé (dans les workshop précédent) . 
 
 4. Copiez le chemin du fichier "marketplace_approval" 
 Dans votre terminal (sandbox), écrivez ces lignes de code : 
