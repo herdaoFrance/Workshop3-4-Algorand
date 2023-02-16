@@ -25,7 +25,7 @@ Vous pourrez trouvez le code dans le réportoire, que vous pouvez copier/coller 
 
 <details>
   <summary>
-  <h1> Interaction avec la blockchain : le wallet  </h1>
+  <h1>  Interaction avec la blockchain : le wallet  </h1>
   </summary>
 Précédemment, nous avons créer sur la blockchain Algorand, un compte et nous avons effectué notre première transaction. Pour créer une vrai dApp ou décentralized  Application, nous souhaitons implémenter une 
 
