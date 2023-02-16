@@ -1,24 +1,23 @@
 # Workshop3&4-Algorand
-Bienvenue pour ce troisième et quatrième workshop  :)
+Bienvenue pour ce cinquième workshop :)
 
-🧵 Aujourd'hui nous allons nous concentrer sur un sujet en particulier : les smart contracts, particulièrement sur Algorand. 
+🧵 Aujourd'hui nous allons nous concentrer sur un sujet en particulier : le front end et le déploiement d'une dApp sur le web
 
 Nous verrons comment : 
 
-✔️ Coder dans le langage de programmation PyTeal 
+✔️ Transformer un design en front-end 
 
-✔️ Créer un smart contract sur Algorand 
+✔️ Déployer sa dApp sur le front 
 
-✔️ Exécuter notre premier smart contract 
 
 
 
 <details>
   <summary>
-  <h1>🤝 Ecriture du smart contract </h1>
+  <h1>🤝 Générer un design front - end  </h1>
   </summary>
- Notre smart contract sera enfaite un smart contract créant une Dapp qui sera une marketplace 
-
+Lors d'un hackathon, vous serez peut-être ammené à créer un front-end, qui sera l'interface de votre produit. Un outil permet de rapidement créer un front-end à partir d'un design : plasmic. 
+ 
 Vous pourrez trouvez le code dans le réportoire, que vous pouvez copier/coller dans vos fichier algorand. 
 
 
@@ -26,9 +25,9 @@ Vous pourrez trouvez le code dans le réportoire, que vous pouvez copier/coller 
 
 <details>
   <summary>
-  <h1>Commande pour déployer notre marketplace </h1>
+  <h1> Interaction avec la blockchain : le wallet  </h1>
   </summary>
-Les variables ci-dessous, seront simplement les chemins à copier/coller depuis le fichier désirer. Si le fichier marketplace_approbation.teal, placez vous sur ce fichier, puis avec un clic droit, il sera possible de récupérer le chemin du contrat. 
+Précédemment, nous avons créer sur la blockchain Algorand, un compte et nous avons effectué notre première transaction. Pour créer une vrai dApp ou décentralized  Application, nous souhaitons implémenter une 
 
 
   ${CHEMIN_VERS_MARKETPLACE_APPROVAL}: Chemin vers la marketplace_approval.teal
@@ -63,3 +62,13 @@ Dans votre terminal (sandbox), écrivez ces lignes de code :
   
 
 </details>
+
+<details>
+  <summary>
+  <h1> Ressources supplémentaire Algorand </h1>
+    <summary/>
+    
+    - Github réunissant tous les projets sur Algorand (en englais) : https://github.com/aorumbayev/awesome-algorand#name-services
+    - 
+  
+  </details>
