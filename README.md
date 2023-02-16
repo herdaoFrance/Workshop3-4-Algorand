@@ -67,8 +67,6 @@ Dans votre terminal (sandbox), écrivez ces lignes de code :
   <summary>
   <h1> Ressources supplémentaire Algorand </h1>
     <summary/>
-    
-    - Github réunissant tous les projets sur Algorand (en englais) : https://github.com/aorumbayev/awesome-algorand#name-services
-    - 
+    Github réunissant tous les projets sur Algorand (en englais) : https://github.com/aorumbayev/awesome-algorand#name-services
   
   </details>
