@@ -50,9 +50,9 @@ Dans votre terminal (sandbox), écrivez ces lignes de code :
   
   <summary>
     <h1>Ressources supplémentaire Algorand </h1>
-    Nous avons finis de parcourir l'ecosysteme Algorand. Félicitation à toi si tu est arrivé jusqu'à là ! 🎆 
-Je te laisse avec des ressources sur lequelles tu peux dig d'avantage sur l'écosystème Algorand 
   <summary/>
+        Nous avons finis de parcourir l'ecosysteme Algorand. Félicitation à toi si tu est arrivé jusqu'à là ! 🎆 
+Je te laisse avec des ressources sur lequelles tu peux dig d'avantage sur l'écosystème Algorand 
 Github réunissant tous les projets sur Algorand (en englais) : https://github.com/aorumbayev/awesome-algorand#name-services
   
 </details>
